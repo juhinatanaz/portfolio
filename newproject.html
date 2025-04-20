@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juhina Tanaz | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e293b, #334155);
+            padding: 5rem 2rem;
+            text-align: left;
+        }
+
+        header div {
+            max-width: 700px;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            color: #f1f5f9;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.6rem;
+            color: #94a3b8;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-button {
+            display: inline-block;
+            background: #38bdf8;
+            color: #f1f5f9;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+            margin-bottom: 2rem;
+        }
+
+        .contact-button:hover {
+            background-color: #5edfff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-links a {
+            margin-right: 15px;
+            color: #cbd5e0;
+            font-size: 1.4rem;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: #38bdf8;
+        }
+
+        nav {
+            margin-top: 3rem;
+        }
+
+        nav a {
+            margin-right: 20px;
+            color: #f1f5f9;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 4rem 1rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 2rem;
+            border-left: 5px solid #38bdf8;
+            padding-left: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .skills strong {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #cbd5e0;
+        }
+
+        .skills span,
+        .contact a {
+            display: inline-block;
+            background: #334155;
+            color: #f1f5f9;
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin: 5px 8px;
+            font-size: 0.95rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .skills span:hover,
+        .contact a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px #38bdf8;
+        }
+
+        .project {
+            background: #1e293b;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-left: 5px solid #38bdf8;
+            border-radius: 6px;
+            transition: transform 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background: #1e293b;
+            text-align: center;
+            padding: 1rem;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        ul li {
+            margin-bottom: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Hi, I'm Juhina Tanaz</h1>
+            <p>A passionate 2nd year Computer Science Engineering student at GNITS, Hyderabad, a dedicated learner, eager to explore and build.</p>
+            <a href="#contact" class="contact-button">Let's Connect</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/juhinatanaz-596461325" target="_blank">LinkedIn</a>
+                <a href="https://github.com/juhinatanaz" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>Driven by a fascination for technology and a creative approach to problem-solving, I'm Juhina Tanaz, a 2nd-year Computer Science Engineering student at GNITS, Hyderabad. I'm on a journey to transform innovative ideas into functional and user-friendly web experiences. My core interests lie in the dynamic world of web development, where I enjoy bringing designs to life with clean and efficient code. I'm constantly exploring new technologies and seeking opportunities to contribute to meaningful projects. Beyond the screen, I'm an enthusiastic learner, eager to connect with fellow tech enthusiasts and contribute to a collaborative environment.</p>
+        <p>My current skillset includes a strong foundation in programming languages like Java and Python, complemented by my passion for front-end development using HTML, CSS, and JavaScript. I'm also comfortable working with databases like MySQL. I'm eager to apply these skills and expand my knowledge through practical experience and engaging projects.</p>
+    </section>
+
+    <section id="skills" data-aos="fade-right">
+        <h2>Skills</h2>
+        <div class="skills">
+            <strong>Programming:</strong>
+            <span>Java</span>
+            <span>Python</span><br><br>
+            <strong>Web Development:</strong>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span><br><br>
+            <strong>Database:</strong>
+            <span>MySQL</span><br><br>
+            <strong>Soft Skills:</strong>
+            <span>Communication</span>
+            <span>Problem Solving</span>
+        </div>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Smart Water Management System</h3>
+            <p>The Smart Water Management System is an innovative IoT-based project aimed at reducing water wastage and improving efficiency in water usage. The system automatically monitors water levels in a tank using sensors and triggers refilling when levels fall below a set threshold.</p>
+            <p>Key features include:</p>
+            <ul>
+                <li>💧 Automatic tank refilling using water level sensors and relay control.</li>
+                <li>🔍 Real-time leakage detection and alerts sent to the user interface.</li>
+                <li>📡 Wireless communication between the hardware and cloud-based dashboard using ESP32 and Firebase/MQTT.</li>
+                <li>📱 User-friendly web interface for live monitoring and notifications.</li>
+            </ul>
+            <p>This project promotes water conservation by reducing manual monitoring and ensuring prompt action during leakage or low water levels. It is ideal for residential, agricultural, and industrial applications.</p>
+        </div>
+    </section>
+
+    <section id="contact" data-aos="zoom-in">
+        <h2>Contact</h2>
+        <p>Email: juhinatanaz@gmail.com</p>
+        <p>Phone: +91-8977499205</p>
+        <div class="contact">
+            <a href="https://github.com/juhinatanaz" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/juhinatanaz-596461325" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Juhina Tanaz | All rights reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
